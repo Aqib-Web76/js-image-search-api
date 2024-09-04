@@ -1,0 +1,67 @@
+/* Styles for the search box and button */
+input[type="text"] {
+    width: 200px;
+    padding: 8px;
+    margin-right: 10px; /* Space between the input box and the search button */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Add margin to the search button to separate it from the pagination controls */
+#searchButton {
+    margin-bottom: 20px; /* Space between the search button and the pagination controls */
+}
+
+/* Styles for the image container */
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px; /* Add space below the image container */
+}
+
+#images img {
+    max-width: 150px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+#images img:hover {
+    transform: scale(1.05);
+}
+
+/* Styles for pagination controls */
+#pagination {
+    margin-top: 20px; /* Space above the pagination controls */
+    margin-bottom: 20px; /* Space below the pagination controls to separate from other elements */
+}
+
+#pagination button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+#pagination button:hover {
+    background-color: #0056b3;
+}
